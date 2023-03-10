@@ -27,16 +27,22 @@ body {
 
 /* ---------------------------------------------------- */
 
-.kontejner {
+body {
+  margin: 0;
+}
+
+.kontejner,
+.pravy {
   display: flex;
 }
 
-.levy,
 .pravy {
-  width: 50%;
+  flex-direction: column;
 }
 
+.levy,
+.pravy,
 .horni,
 .dolni {
-  height: 50%;
+  flex: 50%;
 }
