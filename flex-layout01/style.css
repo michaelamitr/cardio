@@ -35,6 +35,10 @@ body {
 
 /* ---------------------------------------------------- */
 
+body {
+  margin: 0;
+}
+
 .kontejner {
   display: flex;
   flex-direction: row;
@@ -42,18 +46,15 @@ body {
 
 .levy {
   order: 1;
-  display: block;
-  width: 25%;
+  flex: 25%;
 }
 
 .hlavni {
   order: 2;
-  display: block;
-  width: 55%;
+  flex: 55%;
 }
 
 .pravy {
   order: 3;
-  display: block;
-  width: 20%;
+  flex: 20%;
 }
